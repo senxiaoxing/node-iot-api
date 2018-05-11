@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mysqlDs": {
+    "host": "localhost",
+    "port": 3306,
+    "url": "",
+    "database": "intech_iot",
+    "password": "iot",
+    "name": "mysqlDs",
+    "user": "iot",
+    "connector": "mysql"
+  }
+}

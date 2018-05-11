@@ -1,0 +1,75 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "User": {
+    "dataSource": "mysqlDs",
+    "public": false
+  },
+  "AccessToken": {
+    "dataSource": "mysqlDs",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "mysqlDs",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "mysqlDs",
+    "public": false,
+    "options": {
+      "strictObjectIDCoercion": true
+    }
+  },
+  "Role": {
+    "dataSource": "mysqlDs",
+    "public": false
+  },
+  "device_cat_mas": {
+    "dataSource": "mysqlDs",
+    "public": true
+  },
+  "device_data": {
+    "dataSource": "mysqlDs",
+    "public": true
+  },
+  "device_data_type": {
+    "dataSource": "mysqlDs",
+    "public": true
+  },
+  "device_data_type_mas": {
+    "dataSource": "mysqlDs",
+    "public": true
+  },
+  "device_mas": {
+    "dataSource": "mysqlDs",
+    "public": true
+  },
+  "device_mas_ext": {
+    "dataSource": "mysqlDs",
+    "public": true
+  },
+  "Ouser": {
+    "dataSource": "mysqlDs",
+    "public": true
+  },
+  "device_cat_mas_ext": {
+    "dataSource": "mysqlDs",
+    "public": true
+  },
+  "visitor_log": {
+    "dataSource": "mysqlDs",
+    "public": true
+  }
+}
