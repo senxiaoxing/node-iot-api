@@ -9,7 +9,7 @@ var sslConfig = require('./ssl-config');
 var log = require('./log-config').Logger;
 const cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
-// app 是express的实例
+// app 是express的实例 
 
 
 var app = module.exports = loopback();
